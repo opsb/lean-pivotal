@@ -1,0 +1,65 @@
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+body {
+  font-family:verdana,helvetica-neue,helvetica,sans-serif;
+  font-size:12px;
+}
+
+h1 {
+  font-size:2.4em;
+  background-color:black;
+  color:white;
+  padding-left:280px;
+}
+
+h2 {
+  font-size:1.6em;
+  margin:6px 0px 10px -140px;
+  float:left;
+  padding:5px;
+  width:85px;
+}
+
+h3 {
+  font-size:1.8em;
+  border-bottom:1px dashed #aaa;
+  color:#27c;
+  padding:10px 0px 10px 0px;
+}
+
+h4 {
+  font-style:italic;
+  padding:10px 0px;
+}
+
+p {
+  padding:10px 0px;
+}
+
+ul {
+  padding:0px 0px 20px 0px;
+}
+
+li {
+  margin-left:30px;
+  list-style-type:disc;
+  padding:2px 0px;
+}
+
+li ul li {
+  list-style-type:circle;
+}
+
+
+.bounded {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+}
+
+.section {
+  margin-left:140px;
+  margin-top:30px;
+  margin-bottom:50px;
+}
